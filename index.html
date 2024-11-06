@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temmy</title>
+    <link rel="stylesheet" href="ass2u1.css">
+    <link rel="stylesheet" href="days.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg click">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="TRAINING.webp" alt="" style="width: 50px; height: 50px;">
+            Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ment" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 cool">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle temi" data-bs-toggle="dropdown" href="#">DAY1</a>
+                <ul class="dropdown-menu forme">
+                  <li><a class="dropdown-item" href="ass3.html">SUB DAY1</a></li>
+                  <li><a class="dropdown-item" href="ass2.html">SUB2 DAY1</a></li>
+                  <li><a class="dropdown-item" href="#">SUB3 DAY1</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link wura" href="day2.html">DAY2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link wura" href="day3.html">DAY3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link wura" href="day4.html">DAY4</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link wura" href="day5.html">DAY5</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <h1 class="container header1">SIMILARITIES BETWEEN LET ,VAR AND CONST</h1>
+    <br>
+    <div class="container">
+        <h3>
+            <ol>
+                <li class="pull"><u class="top">
+                        <b>
+                            Block Scope:
+
+                        </b>
+                    </u>
+                   <br> All three can be used within a block (e.g., within {}), but their scoping rules differ.
+                    let
+                    and
+                    const are block-scoped, while var is function-scoped.
+                </li>
+                <li class="pull"><u class="top">
+                        <b>
+                            Re-assignment:
+
+                        </b>
+                    </u> 
+                   <br> All three declarations are hoisted to the top of their containing scope. However, while
+                    var
+                    can
+                    be
+                    used before it's declared (with an undefined value), let and const cannot be accessed before their
+                    declaration,
+                    resulting in a "temporal dead zone."
+                </li>
+                <li class="pull"><u class="top">
+                        <b>
+                            Re-declaration:
+
+                        </b>
+                    </u> 
+                   <br> var allows re-declaration within the same scope, while let and const do not allow
+                    re-declaration in the same block scope.
+                </li>
+                <li class="pull"><u class="top">
+                        <b>
+                            Variable Initialization:
+
+                        </b>
+                    </u> 
+                   <br> All three can be initialized at the time of declaration or later in the
+                    code.
+                    However, const requires an initializer at the time of declaration.
+                </li>
+                <li class="pull"><u class="top">
+                        <b>
+                            Use in Global Scope:
+
+                        </b>
+                    </u>
+                   <br> When declared in the global scope, all three can create properties on the
+                    global
+                    object
+                    (e.g., window in browsers). However, var creates a property, while let and const do not.
+                </li>
+            </ol>
+            <br>
+            <hr>
+            <br>
+            <br>
+        </h3>
+    </div>
+    <script src="temi.js"></script>
+</body>
+
+</html>

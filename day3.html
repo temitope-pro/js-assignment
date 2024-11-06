@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="days.css">
+        
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg click">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="TRAINING.webp" alt="" style="width: 50px; height: 50px;">
+            Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ment" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 cool ">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle temi" data-bs-toggle="dropdown" href="#">DAY1</a>
+                <ul class="dropdown-menu forme">
+                  <li><a class="dropdown-item rest" href="ass3.html">SUB DAY1</a></li>
+                  <li><a class="dropdown-item rest" href="ass2.html">SUB2 DAY1</a></li>
+                  <li><a class="dropdown-item" href="index.html">SUB3 DAY1</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link wura" href="day2.html">DAY2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link wura" href="#">DAY3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link wura" href="day4.html">DAY4</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link wura" href="day5.html">DAY5</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <h1 style="text-align: center; margin-bottom: 30px;" class="head2">COMPARISON BETWEEN COMPARISON OPERATOR AND
+            LOGICAL OPERATORS</h1>
+        <h1 class="pell"> Comparison Operators </h1>
+        <br>
+        <h4>
+            Comparison operators compare values and return a boolean result (true or false). They are used to check if a
+            condition is met.
+
+            | Operator | Description | Example | Result |
+            | --- | --- | --- | --- |
+            | == | Equal to | 5 == 5 | true |
+            | != | Not equal to | 5 != 3 | true |
+            | === | Strict equal to (value and type) | 5 === '5' | false |
+            | !== | Strict not equal to | 5 !== '5' | true |
+            | > | Greater than | 5 > 3 | true |
+            | < | Less than | 3 < 5 | true | |>= | Greater than or equal to | 5 >= 5 | true |
+                | <= | Less than or equal to | 3 <=5 | true | Logical Operators Logical operators combine boolean values
+                    and return a boolean result. They are used to make decisions based on multiple conditions. |
+                    Operator | Description | Example | Result | | --- | --- | --- | --- | | && | And (both conditions
+                    must be true) | true && true | true | | || | Or (at least one condition must be true) | true ||
+                    false | true | | ! | Not (negates the condition) | !true | false | Key differences: 1. Purpose: -
+                    Comparison operators compare values. - Logical operators combine boolean values. 2. Return type: -
+                    Comparison operators return a boolean value. - Logical operators return a boolean value based on the
+                    combined conditions. 3. Syntax: - Comparison operators use symbols like==, !=,>, etc.
+                    - Logical operators use symbols like &&, ||, !.
+
+                    Example usage:
+
+                    Comparison operators:
+
+                    const age = 25;
+                    if (age > 18) {
+                    console.log("You are an adult.");
+                    }
+                    <br>
+                    <br>
+                    <u style="background-color: blue; border-radius:5px; border:5px solid aqua; color: white;">
+                        <b>
+                            Example use operators:
+                        </b>
+                    </u>
+                    <h4>
+                        comparison operators:
+                        const age-25;
+                        if (age>=18){
+                            console.log('you are an adult')
+                        }
+                    </h4>
+                    
+                
+
+        </h4>
+        <h1 class="pell" style="margin-top: 50px;"> Logical operators:</h1>
+        <br>
+        <h4>
+            const isAdmin = true;
+            const isModerator = false;
+            if (isAdmin || isModerator) {
+            console.log("You have administrative privileges.");
+            }
+
+
+            Best practices:
+
+            1. Use comparison operators for value comparisons.
+            2. Use logical operators for combining conditions.
+            3. Avoid using == for strict equality checks; use === instead.
+            4. Use parentheses to clarify complex logical expressions.
+
+            Common use cases:
+
+            - Validation
+            - Decision-making
+            - Conditional statements
+            - Loops
+
+            Tips and tricks:
+
+            - Use === for strict equality checks to avoid type coercion.
+            - Use || for default values, e.g., const name = username || 'Guest';.
+            - Use ! to negate conditions, e.g., if (!isAdmin) {...}. <br><br>
+        <h4>
+            <u style="background-color: blue; border-radius:5px; border:5px solid aqua; color: white;margin-top: 20px !important;">
+                <b>
+                    Example used cases:
+                </b>
+            </u>
+        </h4>
+            <h4>
+                const is admin = true;
+                const is moderator = false;
+                if (is admin || is moderator){
+                    console.log('you have admin privileges.');
+                }
+            </h4> <br>
+            <h3 style="background-color: blue; border-radius:5px; border:5px solid aqua; width: max-content; color: white !important;">key differences</h3>
+            <ol>
+                <li><u>
+                        <b>
+                            purpose:
+                        </b>
+                    </u>
+                    <h4>comprison operators compare values while logical operators make decisions.
+                        
+                    </h4>
+                </li>
+                <li><u>
+                        <b>
+                            syntax:
+                        </b>
+                    </u>
+                    <h4>
+                        comparison operators use symbols (e.g, ---),while logical operators use keywords(e.g., and).
+                    </h4>
+                </li>
+                <li><u>
+                        <b>
+                            operands
+                        </b>
+                    </u>
+                    <h4>
+                        comparison: operators require two operands, while logical operators require one or two
+                    </h4>
+                </li>
+            </ol>
+        </h4>
+        <hr>
+        <br><br><br>
+    </div>
+    <script src="temi.js"></script>
+</body>
+
+</html>

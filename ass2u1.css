@@ -1,0 +1,26 @@
+.header1,
+.header2,
+.header3{
+    text-align: center !important;
+    text-decoration: underline;
+    color: white !important;
+    /* background-color: blue; */
+}
+.text{
+    text-indent: 50px;
+}
+.header1,
+.header2{
+    margin-top: 20px;
+    background-color: blue;
+    border-radius: 5px;
+}
+.top{
+    background-color: blue;
+    border-radius: 5px;
+    color: white !important;
+}
+.pull{
+    margin-top: 20px;
+    
+}
