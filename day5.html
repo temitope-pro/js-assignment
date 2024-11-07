@@ -42,7 +42,7 @@
         </div>
       </nav>
         <script>
-        retirementage= 65;
+        let retirementage = 65;
         ageclac = (yearofbirth, currentyear) => {
             return currentyear - yearofbirth;
         }
@@ -51,13 +51,13 @@
         let thisyear = new Date().getFullYear();
         alert(`you are ${ageclac(a, thisyear)} year old`);
         if (retirementage > ageclac(a,thisyear)) {
-            alert(`you should retire  ${retirementage - ageclac(a, thisyear) + thisyear} you can keep it up continue working may god bless`)
+            alert(`you will retire  ${retirementage - ageclac(a, thisyear)} years`)
         }
         else if(retirementage == ageclac(a,thisyear)){
             alert('you can retire')
         }
         else {
-            alert(`you should have retired ${thisyear - (ageclac(a, thisyear)-retirementage)} so i will advise you to retire immediately`)
+            alert(`you should have retired ${ageclac(a, thisyear) -retirementage} years back`)
         }
     </script>
     <script src="temi.js"></script>
