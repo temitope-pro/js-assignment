@@ -18,7 +18,7 @@
           <div class="collapse navbar-collapse ment" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 cool">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle temi" data-bs-toggle="dropdown" href="#">DAY1</a>
+                <a class="nav-link dropdown-toggle temi" data-bs-toggle="dropdown" href="">DAY1</a>
                 <ul class="dropdown-menu forme">
                   <li><a class="dropdown-item" href="ass3.html">SUB DAY1</a></li>
                   <li><a class="dropdown-item" href="ass2.html">SUB2 DAY1</a></li>
@@ -34,8 +34,12 @@
               <li class="nav-item">
                 <a class="nav-link wura" href="day4.html">DAY4</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link wura" href="#">DAY5</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle wura" data-bs-toggle="dropdown" href="#">DAY5</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">RETIREMENT CALCULATOR</a></li>
+                  <li><a class="dropdown-item" href="day6.html">SIMPLE CALCULATOR</a></li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -51,7 +55,7 @@
         let thisyear = new Date().getFullYear();
         alert(`you are ${ageclac(a, thisyear)} year old`);
         if (retirementage > ageclac(a,thisyear)) {
-            alert(`you will retire  ${retirementage - ageclac(a, thisyear)} years`)
+            alert(`you will retire  ${retirementage - ageclac(a, thisyear)} years time`)
         }
         else if(retirementage == ageclac(a,thisyear)){
             alert('you can retire')
